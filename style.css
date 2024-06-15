@@ -1,0 +1,49 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.facebook{
+    color: blue;
+    font-size: 35px;
+}
+input{
+    border: none;
+    border-radius: 20px;
+    padding: 13px;
+    background-color: #F0F2F5;
+    width: 250px;
+    font-size: 15px;
+}
+.left-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.center{
+    font-size:30px;
+    color: blue;
+}
+li{
+    background-color: #D8DADF;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+i{
+    font-size: 20px;
+}
